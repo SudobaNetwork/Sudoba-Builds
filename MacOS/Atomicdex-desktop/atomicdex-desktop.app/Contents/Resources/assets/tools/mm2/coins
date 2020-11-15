@@ -1,0 +1,1659 @@
+[
+   {
+        "coin": "SRBC",
+        "asset": "SRBC",
+        "fname": "SRBC",
+        "rpcport": 28242,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "requires_notarization": false,
+        "avg_blocktime": 1,
+        "protocol": {
+            "type": "UTXO"
+        }
+    },
+	{
+		"coin": "ARPA",
+		"name": "arpa-chain",
+		"fname": "ARPA Chain",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xBA50933C268F567BDC86E1aC131BE072C6B0b71a"
+			}
+		}
+	},
+	{
+		"coin": "AWC",
+		"name": "atomic-wallet-coin",
+		"fname": "Atomic Wallet Coin",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xaD22f63404f7305e4713CcBd4F296f34770513f4"
+			}
+		}
+	},
+	{
+		"coin": "AXE",
+		"name": "axe",
+		"fname": "Axe",
+		"rpcport": 9337,
+		"pubtype": 55,
+		"p2shtype": 16,
+		"wiftype": 204,
+		"txfee": 10000,
+		"confpath": "USERHOME/.axecore/axe.conf",
+		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 2.6,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "AXO",
+		"asset": "AXO",
+		"fname": "AXO",
+		"rpcport": 12927,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "AYA",
+		"name": "aryacoin",
+		"fname": "Aryacoin",
+		"rpcport": 9332,
+		"pubtype": 23,
+		"p2shtype": 5,
+		"wiftype": 176,
+		"txfee": 100000,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 0.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BAT",
+		"name": "basic-attention-token",
+		"fname": "Basic Attention Token",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+			}
+		}
+	},
+	{
+		"coin": "BCH",
+		"name": "bch",
+		"fname": "Bitcoin Cash",
+		"rpcport": 33333,
+		"pubtype": 0,
+		"p2shtype": 5,
+		"wiftype": 128,
+		"txfee": 0,
+		"segwit": true,
+		"address_format": {
+			"format": "cashaddress",
+			"network": "bitcoincash"
+		},
+		"mm2": 1,
+		"required_confirmations": 1,
+		"avg_blocktime": 10,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BEER",
+		"asset": "BEER",
+		"fname": "BEER (TESTCOIN)",
+		"rpcport": 8923,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BET",
+		"asset": "BET",
+		"fname": "BET",
+		"rpcport": 14250,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BLK",
+		"name": "blackmore",
+		"fname": "Blackcoin",
+		"isPoS": 1,
+		"rpcport": 15715,
+		"pubtype": 25,
+		"p2shtype": 85,
+		"wiftype": 153,
+		"txfee": 100000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BOTS",
+		"asset": "BOTS",
+		"fname": "BOTS",
+		"rpcport": 11964,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BTC",
+		"name": "bitcoin",
+		"fname": "Bitcoin",
+		"rpcport": 8332,
+		"pubtype": 0,
+		"p2shtype": 5,
+		"wiftype": 128,
+		"segwit": true,
+		"txfee": 0,
+		"estimate_fee_mode": "ECONOMICAL",
+		"mm2": 1,
+		"required_confirmations": 1,
+		"avg_blocktime": 10,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BTCH",
+		"asset": "BTCH",
+		"fname": "Bitcoin Hush",
+		"rpcport": 8800,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BTX",
+		"name": "bitcore",
+		"fname": "Bitcore",
+		"rpcport": 8556,
+		"pubtype": 3,
+		"p2shtype": 125,
+		"wiftype": 128,
+		"txfee": 50000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "BUSD",
+		"name": "binance-usd",
+		"fname": "Binance USD",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53"
+			}
+		}
+	},
+	{
+		"coin": "CCL",
+		"asset": "CCL",
+		"fname": "CoinCollect",
+		"rpcport": 20849,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "CHIPS",
+		"name": "chips",
+		"fname": "Chips",
+		"rpcport": 57776,
+		"pubtype": 60,
+		"p2shtype": 85,
+		"wiftype": 188,
+		"txfee": 10000,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 0.166,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "COLX",
+		"name": "ColossusXT",
+		"fname": "ColossusXT",
+		"rpcport": 51473,
+		"pubtype": 30,
+		"p2shtype": 13,
+		"wiftype": 212,
+		"txfee": 1000000000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "COQUI",
+		"asset": "COQUICASH",
+		"fname": "Coqui Cash",
+		"rpcport": 19712,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "CRO",
+		"name": "cryptocom",
+		"fname": "Crypto.com",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b"
+			}
+		}
+	},
+	{
+		"coin": "CRYPTO",
+		"asset": "CRYPTO",
+		"fname": "Crypto777",
+		"rpcport": 8516,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "DAI",
+		"name": "multi-collateral-dai",
+		"fname": "Multi-collateral DAI",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+			}
+		}
+	},
+	{
+		"coin": "DASH",
+		"name": "dashcore",
+		"fname": "Dash",
+		"confpath": "USERHOME/.dashcore/dash.conf",
+		"rpcport": 9998,
+		"pubtype": 76,
+		"p2shtype": 16,
+		"wiftype": 204,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 2.633,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "DDD",
+		"name": "scryinfo",
+		"fname": "Scry.info",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x9F5F3CFD7a32700C93F971637407ff17b91c7342"
+			}
+		}
+	},
+	{
+		"coin": "DEC8",
+		"name": "DEC8",
+		"fname": "DEC8 (TESTCOIN)",
+		"mm2": 1,
+		"rpcport": 80,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x3aB100442484Dc2414Aa75B2952A0a6f03f8aBFd"
+			}
+		}
+	},
+	{
+		"coin": "DENT",
+		"name": "dent",
+		"fname": "Dent Coin",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258"
+			}
+		}
+	},
+	{
+		"coin": "DEX",
+		"asset": "DEX",
+		"fname": "InstantDEX",
+		"rpcport": 11890,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "DGB",
+		"name": "digibyte",
+		"fname": "Digibyte",
+		"rpcport": 14022,
+		"pubtype": 30,
+		"p2shtype": 63,
+		"wiftype": 128,
+		"txfee": 0,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 7,
+		"avg_blocktime": 1.25,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "DOGE",
+		"name": "dogecoin",
+		"fname": "Dogecoin",
+		"rpcport": 22555,
+		"pubtype": 30,
+		"p2shtype": 22,
+		"wiftype": 158,
+		"txfee": 0,
+		"force_min_relay_fee": true,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "DP",
+		"asset": "DP",
+		"fname": "DigitalPrice",
+		"rpcport": 28388,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "ECA",
+		"name": "electra",
+		"fname": "Electra",
+		"rpcport": 5788,
+		"pubtype": 33,
+		"p2shtype": 40,
+		"wiftype": 161,
+		"txfee": 0,
+		"txversion": 7,
+		"mm2": 1,
+		"confpath": "USERHOME/.electra/Electra.conf",
+		"required_confirmations": 5,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "EMC2",
+		"name": "einsteinium",
+		"fname": "Einsteinium",
+		"rpcport": 41879,
+		"pubtype": 33,
+		"p2shtype": 5,
+		"wiftype": 176,
+		"txfee": 100000,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1.1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "ENJ",
+		"name": "enjin-coin",
+		"fname": "Enjin Coin",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c"
+			}
+		}
+	},
+	{
+		"coin": "ETH",
+		"name": "ethereum",
+		"fname": "Ethereum",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ETH"
+		}
+	},
+	{
+		"coin": "FLASH",
+		"name": "flashcoin",
+		"fname": "Flashcoin",
+		"rpcport": 9332,
+		"pubtype": 68,
+		"p2shtype": 130,
+		"wiftype": 196,
+		"txfee": 10000000,
+		"decimals": 10,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "FLO",
+		"name": "flo",
+		"fname": "Florincoin",
+		"rpcport": 7313,
+		"pubtype": 35,
+		"p2shtype": 8,
+		"wiftype": 176,
+		"txfee": 100000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "FTC",
+		"name": "feathercoin",
+		"fname": "Feathercoin",
+		"rpcport": 9337,
+		"pubtype": 14,
+		"p2shtype": 5,
+		"wiftype": 142,
+		"txfee": 1000000,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 1.033,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "GIN",
+		"name": "gincoin",
+		"fname": "GINcoin",
+		"rpcport": 10211,
+		"pubtype": 38,
+		"p2shtype": 10,
+		"wiftype": 198,
+		"txfee": 10000,
+		"confpath": "USERHOME/.gincoincore/gincoin.conf",
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "GLEEC",
+		"name": "gleecbtc",
+		"fname": "Gleec",
+		"rpcport": 8332,
+		"pubtype": 35,
+		"p2shtype": 38,
+		"wiftype": 65,
+		"segwit": true,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "HODL",
+		"asset": "HODL",
+		"fname": "HODL",
+		"rpcport": 14431,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "HOT",
+		"name": "holo-token",
+		"fname": "Holo Token",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2"
+			}
+		}
+	},
+	{
+		"coin": "HT",
+		"name": "huobi-token",
+		"fname": "Huobi Token",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161"
+			}
+		}
+	},
+	{
+		"coin": "HUSH",
+		"asset": "HUSH3",
+		"fname": "Hush",
+		"rpcport": 18031,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 2.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "ILN",
+		"asset": "ILN",
+		"fname": "Ilien",
+		"rpcport": 12986,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"p2p": 12985,
+		"magic": "feb4cb23",
+		"nSPV": "5.9.102.210, 5.9.253.195, 5.9.253.196, 5.9.253.197, 5.9.253.198, 5.9.253.199, 5.9.253.200, 5.9.253.201, 5.9.253.202, 5.9.253.203",
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "JST",
+		"name": "JST",
+		"fname": "JST (TESTCOIN)",
+		"mm2": 1,
+		"rpcport": 80,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x996a8ae0304680f6a69b8a9d7c6e37d65ab5ab56"
+			}
+		}
+	},
+	{
+		"coin": "JUMBLR",
+		"asset": "JUMBLR",
+		"fname": "JUMBLR",
+		"rpcport": 15106,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "KMD",
+		"name": "komodo",
+		"fname": "Komodo",
+		"rpcport": 7771,
+		"pubtype": 60,
+		"p2shtype": 85,
+		"wiftype": 188,
+		"txversion": 4,
+		"overwintered": 1,
+		"txfee": 1000,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "KOIN",
+		"asset": "KOIN",
+		"fname": "Koinon",
+		"rpcport": 10702,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "LABS",
+		"asset": "LABS",
+		"fname": "KMD Labs",
+		"rpcport": 40265,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "LBC",
+		"name": "lbrycrd",
+		"fname": "LBRY Credits",
+		"rpcport": 9245,
+		"pubtype": 85,
+		"p2shtype": 122,
+		"wiftype": 28,
+		"txfee": 10000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "LINK",
+		"name": "chainlink",
+		"fname": "Chainlink",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+			}
+		}
+	},
+	{
+		"coin": "LRC",
+		"name": "loopring",
+		"fname": "Loopring",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"decimals": 18,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD"
+			}
+		}
+	},
+	{
+		"coin": "LTC",
+		"name": "litecoin",
+		"fname": "Litecoin",
+		"rpcport": 9332,
+		"pubtype": 48,
+		"p2shtype": 50,
+		"wiftype": 176,
+		"txfee": 0,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 2.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "LUX",
+		"name": "lux",
+		"fname": "LUXCoin",
+		"rpcport": 9888,
+		"isPoS": 1,
+		"pubtype": 48,
+		"p2shtype": 63,
+		"wiftype": 155,
+		"txfee": 10000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "MANA",
+		"name": "decentraland",
+		"fname": "Decentraland",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+			}
+		}
+	},
+	{
+		"coin": "MCL",
+		"asset": "MCL",
+		"fname": "MarmaraCreditLoops",
+		"rpcport": 33825,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"requires_notarization": false,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "MESH",
+		"asset": "MESH",
+		"fname": "SuperMESH",
+		"rpcport": 9455,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "MGW",
+		"asset": "MGW",
+		"fname": "MultiGateway",
+		"rpcport": 12386,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "MKR",
+		"name": "maker",
+		"fname": "Maker",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+			}
+		}
+	},
+	{
+		"coin": "MONA",
+		"name": "monacoin",
+		"fname": "MonaCoin",
+		"rpcport": 9402,
+		"pubtype": 50,
+		"p2shtype": 5,
+		"wiftype": 176,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 1.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "MORTY",
+		"asset": "MORTY",
+		"fname": "MORTY (TESTCOIN)",
+		"rpcport": 16348,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 1,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "MOVI",
+		"name": "movitoken",
+		"fname": "MoviToken",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x06F979E4F04ec565Ae8d7479a94C60dEF8846832"
+			}
+		}
+	},
+	{
+		"coin": "MSHARK",
+		"asset": "MSHARK",
+		"fname": "MiliShark",
+		"rpcport": 8846,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "NAV",
+		"name": "navcoin",
+		"fname": "Navcoin",
+		"isPoS": 1,
+		"txversion": 3,
+		"confpath": "USERHOME/.navcoin4/navcoin.conf",
+		"rpcport": 44444,
+		"pubtype": 53,
+		"p2shtype": 85,
+		"wiftype": 150,
+		"txfee": 10000,
+		"mm2": 1,
+		"required_confirmations": 10,
+		"avg_blocktime": 0.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "NIX",
+		"name": "nix",
+		"fname": "NIX",
+		"rpcport": 6215,
+		"pubtype": 38,
+		"p2shtype": 53,
+		"wiftype": 128,
+		"txfee": 10000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "NMC",
+		"name": "namecoin",
+		"fname": "Namecoin",
+		"rpcport": 8336,
+		"pubtype": 52,
+		"p2shtype": 13,
+		"wiftype": 180,
+		"txfee": 0,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"avg_blocktime": 10,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "NPXS",
+		"name": "pundi-x",
+		"fname": "Pundi X",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xA15C7Ebe1f07CaF6bFF097D8a589fb8AC49Ae5B3"
+			}
+		}
+	},
+	{
+		"coin": "OOT",
+		"asset": "OOT",
+		"fname": "Utrum",
+		"rpcport": 12467,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "PANGEA",
+		"asset": "PANGEA",
+		"fname": "Pangea Poker",
+		"rpcport": 14068,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "PAX",
+		"name": "paxos",
+		"fname": "Paxos",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1"
+			}
+		}
+	},
+	{
+		"coin": "PEO",
+		"name": "proelio",
+		"fname": "Proelio",
+		"confpath": "USERHOME/.ProelioCore/proelio.conf",
+		"rpcport": 5655,
+		"pubtype": 56,
+		"p2shtype": 33,
+		"wiftype": 115,
+		"txfee": 10000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "PGT",
+		"asset": "PGT",
+		"fname": "Pungo Token",
+		"rpcport": 46705,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "PIZZA",
+		"asset": "PIZZA",
+		"fname": "PIZZA (TESTCOIN)",
+		"rpcport": 11116,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "POWR",
+		"name": "power-ledger",
+		"fname": "Power Ledger",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x595832F8FC6BF59c85C527fEC3740A1b7a361269"
+			}
+		}
+	},
+	{
+		"coin": "PTX",
+		"asset": "PTX",
+		"fname": "PatentTX",
+		"rpcport": 61939,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin":"QRC20",
+		"pubtype":120,
+		"p2shtype":50,
+		"wiftype":128,
+		"segwit":true,
+		"txfee":0,
+		"mm2":1,
+		"mature_confirmations":500,
+		"required_confirmations":1,
+		"protocol":{
+			"type":"QRC20",
+			"protocol_data":{
+				"platform":"QTUM",
+				"contract_address":"0xd362e096e873eb7907e205fadc6175c6fec7bc44"
+			}
+		}
+	},
+	{
+		"coin": "QTUM",
+		"name": "qtum",
+		"fname": "Qtum",
+		"rpcport": 3889,
+		"pubtype": 58,
+		"p2shtype": 50,
+		"wiftype": 128,
+		"segwit": true,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 2.133,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "REP",
+		"name": "augur",
+		"fname": "Augur",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x221657776846890989a759BA2973e427DfF5C9bB"
+			}
+		}
+	},
+	{
+		"coin": "REVS",
+		"asset": "REVS",
+		"fname": "REVS",
+		"rpcport": 10196,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "RFOX",
+		"name": "redfox",
+		"fname": "RedFOX",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xa1d6Df714F91DeBF4e0802A542E13067f31b8262"
+			}
+		}
+	},
+	{
+		"coin": "RICK",
+		"asset": "RICK",
+		"fname": "RICK (TESTCOIN)",
+		"rpcport": 25435,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 1,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "RVN",
+		"name": "raven",
+		"fname": "Raven",
+		"rpcport": 8766,
+		"pubtype": 60,
+		"p2shtype": 122,
+		"wiftype": 128,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "SAI",
+		"name": "single-collateral-dai",
+		"fname": "Single Collateral DAI",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359"
+			}
+		}
+	},
+	{
+		"coin": "SIRX",
+		"name": "sirius",
+		"fname": "Sirius",
+		"rpcport": 4001,
+		"pubtype": 63,
+		"p2shtype": 50,
+		"wiftype": 128,
+		"txfee": 200000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "SOLVE",
+		"name": "care-solve",
+		"fname": "Solve Token",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F"
+			}
+		}
+	},
+	{
+		"coin": "SPACE",
+		"asset": "SPACE",
+		"fname": "Spacecoin",
+		"rpcport": 35593,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 6,
+		"requires_notarization": false,
+		"avg_blocktime": 0.5,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "SUPERNET",
+		"asset": "SUPERNET",
+		"fname": "SUPERNET",
+		"rpcport": 11341,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "SYS",
+		"name": "syscoin",
+		"fname": "Syscoin",
+		"rpcport": 8370,
+		"pubtype": 63,
+		"p2shtype": 5,
+		"wiftype": 128,
+		"txfee": 10000,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "tBTC",
+		"name": "tbitcoin",
+		"fname": "tBitcoin",
+		"rpcport": 18332,
+		"pubtype": 111,
+		"p2shtype": 196,
+		"wiftype": 239,
+		"segwit": true,
+		"txfee": 0,
+		"estimate_fee_mode": "ECONOMICAL",
+		"mm2": 1,
+		"required_confirmations": 0,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "THC",
+		"asset": "THC",
+		"fname": "HempCoin",
+		"rpcport": 36790,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "TUSD",
+		"name": "tusd",
+		"fname": "TrueUSD",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0x0000000000085d4780B73119b644AE5ecd22b376"
+			}
+		}
+	},
+	{
+		"coin": "USDC",
+		"name": "usdc",
+		"fname": "USD Coin",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+			}
+		}
+	},
+	{
+		"coin": "VRA",
+		"name": "verasity",
+		"fname": "Verasity",
+		"rpcport": 80,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xdF1D6405df92d981a2fB3ce68F6A03baC6C0E41F"
+			}
+		}
+	},
+	{
+		"coin": "VIA",
+		"name": "viacoin",
+		"fname": "Viacoin",
+		"rpcport": 5222,
+		"pubtype": 71,
+		"p2shtype": 33,
+		"wiftype": 199,
+		"txfee": 100000,
+		"segwit": true,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "VOTE2020",
+		"asset": "VOTE2020",
+		"rpcport": 44249,
+		"mm2": 1,
+		"txfee": 10000,
+		"txversion": 4,
+		"overwintered": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "VRSC",
+		"asset": "VRSC",
+		"fname": "VerusCoin",
+		"rpcport": 27486,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "VTC",
+		"name": "vertcoin",
+		"fname": "Vertcoin",
+		"rpcport": 5888,
+		"pubtype": 71,
+		"p2shtype": 5,
+		"wiftype": 128,
+		"txfee": 0,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 4,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "WLC",
+		"asset": "WLC21",
+		"fname": "Wireless Coin",
+		"rpcport": 38808,
+		"txversion": 4,
+		"overwintered": 1,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "XSN",
+		"name": "xsn",
+		"fname": "Stakenet",
+		"rpcport": 51473,
+		"pubtype": 76,
+		"p2shtype": 16,
+		"wiftype": 204,
+		"txfee": 10000,
+		"confpath": "USERHOME/.xsncore/xsn.conf",
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "XZC",
+		"name": "zcoin",
+		"fname": "Zcoin",
+		"rpcport": 8888,
+		"pubtype": 82,
+		"p2shtype": 7,
+		"wiftype": 210,
+		"txfee": 0,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 5.65,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "YCE",
+		"name": "myce",
+		"fname": "MYCE",
+		"rpcport": 23512,
+		"pubtype": 50,
+		"p2shtype": 85,
+		"wiftype": 153,
+		"txfee": 10000,
+		"txversion": 3,
+		"mm2": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "ZEC",
+		"name": "zcash",
+		"fname": "Zcash",
+		"rpcport": 8232,
+		"taddr": 28,
+		"pubtype": 184,
+		"p2shtype": 189,
+		"wiftype": 128,
+		"txversion": 4,
+		"overwintered": 1,
+		"version_group_id": "0x892f2085",
+		"consensus_branch_id": "0xf5b9230b",
+		"txfee": 10000,
+		"mm2": 1,
+		"required_confirmations": 3,
+		"avg_blocktime": 1.25,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "ZER",
+		"name": "zero",
+		"fname": "Zero",
+		"rpcport": 23811,
+		"taddr": 28,
+		"pubtype": 184,
+		"p2shtype": 189,
+		"wiftype": 128,
+		"txversion": 4,
+		"overwintered": 1,
+		"version_group_id": "0x892f2085",
+		"consensus_branch_id": "0x7361707a",
+		"txfee": 1000,
+		"mm2": 1,
+		"required_confirmations": 5,
+		"avg_blocktime": 2,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "ZILLA",
+		"asset": "ZILLA",
+		"fname": "ChainZilla",
+		"rpcport": 10041,
+		"mm2": 1,
+		"required_confirmations": 2,
+		"requires_notarization": true,
+		"avg_blocktime": 1,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
+	{
+		"coin": "ZRX",
+		"name": "0x",
+		"fname": "0x",
+		"required_confirmations": 3,
+		"avg_blocktime": 0.25,
+		"rpcport": 80,
+		"mm2": 1,
+		"protocol": {
+			"type": "ERC20",
+			"protocol_data": {
+				"platform": "ETH",
+				"contract_address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498"
+			}
+		}
+	}
+]
